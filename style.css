@@ -56,6 +56,7 @@ header{
     font-size: 15px;
     position: relative;
     top: -4px;
+    padding: 0px;
     
 
 }
@@ -169,15 +170,15 @@ button:hover{
     top: -5px;
 }
 .menu-bar{
-    position: relative; 
+    position:absolute; 
     color: #2ecc71;
     background: transparent;
     font-size: 48px;/* diminuir o tamanho */
     width: 0px; /* aumentar a largura dele */
     height: 0px;
-    top: -42px;  
+    top: 1px;  
     border: none; 
-    left: 11px; 
+    left: -13px; 
     cursor: pointer;
     display: none;
 
@@ -194,9 +195,12 @@ button:hover{
 
 .front-end{
     position: relative;
-    left:89px;
-    top: -7px;
+    left:70px;
+    top: -13px;
     display: none;
+    padding: 0x;
+    font-size: 14px;
+    align-items: center;
 }
 
 
@@ -218,9 +222,17 @@ button:hover{
     }
     .menu-bar{
         display: flex;
-        top: -32px;
+        margin: -13px
+        
     }
     .front-end{
         display: flex;
+    }
+    .cabeçalho-link{
+        
+        position: relative;
+       
+        
+
     }
 }
