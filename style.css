@@ -176,7 +176,7 @@ button:hover{
     font-size: 48px;/* diminuir o tamanho */
     width: 0px; /* aumentar a largura dele */
     height: 0px;
-    top: 1px;  
+    top: 6px;  
     border: none; 
     left: 13px; 
     cursor: pointer;
@@ -196,7 +196,7 @@ button:hover{
 .front-end{
     position: relative;
     left:-55px;
-    top: -13px;
+    top: -9px;
     display: none;
     padding: 0x;
     font-size: 14px;
