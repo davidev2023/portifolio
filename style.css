@@ -178,7 +178,7 @@ button:hover{
     height: 0px;
     top: 1px;  
     border: none; 
-    left: -13px; 
+    left: 13px; 
     cursor: pointer;
     display: none;
 
@@ -195,7 +195,7 @@ button:hover{
 
 .front-end{
     position: relative;
-    left:70px;
+    left:-55px;
     top: -13px;
     display: none;
     padding: 0x;
@@ -222,7 +222,6 @@ button:hover{
     }
     .menu-bar{
         display: flex;
-        margin: -13px
         
     }
     .front-end{
@@ -230,9 +229,7 @@ button:hover{
     }
     .cabeçalho-link{
         
-        position: relative;
-       
-        
-
+        display: none;
     }
+  
 }
