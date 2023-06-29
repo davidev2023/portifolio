@@ -19,7 +19,7 @@ body{
 
 .background{
     background: linear-gradient(rgba(0,0,0,0.5)),(rgba(0,0,0,0.5));
-    background-image: url(./img/tecnologia.jpg);
+    background-image: url(./tecnologia.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -86,7 +86,7 @@ header{
     
 }
 
-button{ /* Meu contato */
+.meu-contato{ /* Meu contato */
 
     color: #2ecc71;
     background: transparent;
@@ -158,12 +158,53 @@ button:hover{
 }
 .btn{
     margin-top: 10px;
-    font-size: 15px;
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1px #2ecc71; /* borda dele */
+    padding: 5px; /* dar um afastamento da margem */
+    border-radius: 15px; /* arrendodar as bordas*/
+    font-size: 15px;/* diminuir o tamanho */
+    width: 150px; /* aumentar a largura dele */
+    position: relative;
+    top: -5px;
 }
+.menu-bar{
+    position: relative; 
+    color: #2ecc71;
+    background: transparent;
+    font-size: 48px;/* diminuir o tamanho */
+    width: 0px; /* aumentar a largura dele */
+    height: 0px;
+    top: -42px;  
+    border: none; 
+    left: 11px; 
+    cursor: pointer;
+    display: none;
+
+
+}
+.front{
+    position: relative;
+    display: flex;
+    color: #fff;
+}
+.end{
+    color: #2ecc71;
+}
+
+.front-end{
+    position: relative;
+    left:89px;
+    top: -7px;
+    display: none;
+}
+
+
+
 
 @media screen and (max-width :630px){
     .redes-sociais a{
-        color: red;}
+        color:#2ecc71;}
     .meu-contato{
         display: none;}
     .logo i{
@@ -171,5 +212,15 @@ button:hover{
     .cabeçalho-link a{
         display: none;
     }
+    .container-text{
+        margin-left: -100px;
 
+    }
+    .menu-bar{
+        display: flex;
+        top: -32px;
+    }
+    .front-end{
+        display: flex;
+    }
 }
