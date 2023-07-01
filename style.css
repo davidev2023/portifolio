@@ -256,7 +256,7 @@ button:hover{
 }
 
 /* meio da pagina*/
-#meio-pagina{
+.meio-pagina{
     background-color: #333333;
     position: relative;
     width: 100%;
