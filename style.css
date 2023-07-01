@@ -23,7 +23,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 101vh;
     
 }
 
@@ -173,10 +173,10 @@ button:hover{
     position:absolute; 
     color: #2ecc71;
     background: transparent;
-    font-size: 48px;/* diminuir o tamanho */
+    font-size: 35px;/* diminuir o tamanho */
     width: 0px; /* aumentar a largura dele */
     height: 0px;
-    top: 6px;  
+    top: 12px;  
     border: none; 
     left: 13px; 
     cursor: pointer;
@@ -207,8 +207,7 @@ button:hover{
 
 
 @media screen and (max-width :630px){
-    .redes-sociais a{
-        color:#2ecc71;}
+    
     .meu-contato{
         display: none;}
     .logo i{
@@ -231,5 +230,23 @@ button:hover{
         
         display: none;
     }
-  
+    .background{
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.685)),url(./tecnologia.jpg);
+    background-position: center;
+    
+    
+}
+.text{
+    position: relative;
+    top: -100px;
+
+    
+}  
+}
+
+@media screen and (max-width :345px){
+ .text{
+    font-size: 20px;
+ }
+
 }
